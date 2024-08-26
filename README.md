@@ -1,9 +1,9 @@
 Wine Data Analysis Report
 
-1. Introduction
+1. **Introduction**
 This report provides an analysis of a wine datasets, including red, white, rosé, and sparkling wines, with attributes such as name, country, region, winery, rating, number of ratings, price, and year. The goal is to derive actionable business insights related to product performance, pricing strategies, market segmentation, and customer preferences. This data set was obtained from kaggle. Link….
 
-2. About Data 
+2. **About Data**
 The datasets consists of four categories of wines:
 Red Wine: Includes premium varieties like Pomerol 2011 from France.
 White Wine: Features wines such as Vermentino 2017 from Italy.
@@ -19,7 +19,7 @@ Key columns in the dataset:
 Price: Price of the wine.
 Year: Vintage or production year.
 
-3. Data Cleaning and Preprocessing
+3. **Data Cleaning and Preprocessing**
 To ensure the data is ready for analysis, the following steps were taken:
 Handling Missing Values: Missing value was checked for in each of the columns in the datasets.
 Temporary disabling the update mode: This was done to replace value in a specific column
@@ -29,25 +29,25 @@ To ensure the data is ready for analysis, the following steps were taken:
 Converting Data Types: Ensured numerical fields (Price, Rating, NumberOfRatings) are stored in the correct data types.
 Join: The three tables were combined together using ‘union all ‘
 
-4. Key Findings and Business Insights From Exploratory Analysis
-4.1 Product Performance
+4. **Key Findings and Business Insights From Exploratory Analysis**
+4.1 **Product Performance**
 Highest-Rated Wines:
 oThe three top rated wine among the red,white, rose, sparkling wines are
 A.Montrachet Grand Cru Marquis de Laguiche 2017
 B.Barolo Riserva Monfortino 2013
 C.Toscana 2016
 
-Most Popular Wines (by Number of Ratings):
+ **Most Popular Wines (by Number of Ratings)**:
 o The result shows a slight increase in the rating count of wines as the average rating decreases. This indicates that there are more orders for premium wines. In addition, it was noticed that red wines have more a quite number of higher ratings compared to orders, indicating higher customer engagement.
 
 
-4.2 Pricing and Sales Strategy
+4.2 **Pricing and Sales Strategy**
 Best Value Wines:
 o'Frizzantino Dolce N.V.', 'Lambrusco dell’Emilia Dolce N.V.', and 'Nero d''Avola 2018' top the table of wines with good ratings at a low price, which  represents excellent value for budget-conscious consumers. Moreover, the shows how customer values the non vintage wines (sparkling wines) as its appear in the first 2 top.
 o
 
 On the order hand, 
-4.3 Market Segmentation
+4.3 **Market Segmentation**
 Regional Performance:
 oFrench wines are the top rated among all country present in the datasets, suggesting a strong market presence. This is followed by the wines from the Italy a good performing too.
 

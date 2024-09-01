@@ -23,7 +23,8 @@ The datasets consists of four categories of wines:
 - Price: Price of the wine.
 - Year: Vintage or production year.
 
-5. **Data Cleaning and Preprocessing**
+**Data Cleaning and Preprocessing**
+
 To ensure the data is ready for analysis, the following steps were taken:
 - Handling Missing Values: Missing value was checked for in each of the columns in the datasets.
 - Temporary disabling the update mode: This was done to replace value in a specific column
@@ -33,9 +34,9 @@ To ensure the data is ready for analysis, the following steps were taken:
 - Converting Data Types: Ensured numerical fields (Price, Rating, NumberOfRatings) are stored in the correct data types.
 - Join: The three tables were combined together using ‘union all ‘
 
-6. **Key Findings and Business Insights From Exploratory Analysis**
+**Key Findings and Business Insights From Exploratory Analysis**
 
-4.1 **Product Performance**
+**Product Performance**
 
 - Highest-Rated Wines:
 -The three top rated wine among the red,white, rose, sparkling wines are
@@ -50,7 +51,7 @@ C.Toscana 2016
 
 - The result shows a slight increase in the rating count of wines as the average rating decreases. This indicates that there are more orders for premium wines. In addition, it was noticed that red wines have more a quite number of higher ratings compared to orders, indicating higher customer engagement.
 
-4.2 **Pricing and Sales Strategy**
+**Pricing and Sales Strategy**
 
 **Best Value Wines:**
 
@@ -98,7 +99,7 @@ The analysis of the wine datasets provide several actionable insights:
 - Review and optimize pricing and sales strategies, particularly for wines that are highly rated yet priced competitively.
 - These insights can guide strategic decisions in marketing, sales, product development, and inventory management, helping to optimize the wine portfolio and improve business outcomes.
 
-6. Recommendations
+**Recommendations**
 - Enhance Marketing Campaigns: Highlight top-rated and value wines in promotional materials to boost sales.
 - Optimize Inventory: Focus on stocking high-performing wines and consider discontinuing or reducing the supply of the under performing ones.
 - Refine Pricing Strategy: Adjust pricing based on customer perceptions of value, particularly in the Premium segment.
